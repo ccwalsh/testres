@@ -1,0 +1,22 @@
+---
+title: "WORKSHOP 5 -GGPLOT2"
+author: "Chris Walsh"
+date: "18/08/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(scales)
+library(lubridate)
+
+theme_set(theme_light())
+data(mpg)
+
+
+```
+
