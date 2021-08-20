@@ -37,4 +37,5 @@ survey_usd %>% ggplot(
   aes( x = age,
        y = annual_salary,
        colour = gender)
-)+ geom_point()
+)+ geom_point()+
+  facet_wrap(survey_usd$experience_in_field)
